@@ -1,0 +1,16 @@
+Source: python-jsonschema
+Section: python
+Priority: optional
+Maintainer: Kiall Mac Innes <kiall@managedit.ie>
+Build-Depends: debhelper (>= 8.0.0),
+               python-setuptools,
+               python-all
+Standards-Version: 3.9.2
+
+Package: python-jsonschema
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends}
+Description: An implementation of JSON-Schema validation for Python
+ jsonschema is an implementation of JSON Schema (currently in Draft 3) for 
+ Python (supporting 2.6+ including Python 3)
